@@ -1,4 +1,3 @@
-using System;
-using System.Net.Http;
-using System.Threading.Tasks;
-using Newtonsoft.Json.Linq;
+class Program
+{
+    static readonly HttpClient client = new HttpClient();
